@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+span{
+  display: inline-block;
+  background-color: antiquewhite;
+  padding: 10px;
+  margin: 5px;
+}
+.list{
+  border: 2px solid black;
+    margin: auto;
+    width: 600px;
+    margin-top: 10px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.background{
+  /* background: url('../img/resto.jpg') center center; */
+  background-size: cover;
+  height:663px;
+}
+.upBackground{
+  background-size: cover;
+  height:663px;
+  background: url('../img/fb.jpg') center no-repeat;
+}
+
+.row-item{
+  margin: 5px auto;
+  padding: 2px;
+  height: 40px;
+  width: 250px;
+  background-color: rgb(147, 202, 232);
+}
+
+.input-search{
+  padding: 10px;
+  margin: 20px;
+  border-radius: 8px;
+  width: 400px;
+  color: yellowgreen;
+  background-color: ivory;
+}
+
+.login{
+  margin-top: 0px;
+    padding: 10px;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.login-div{
+  margin: 20px;
+}
+
+.logout{
+  display: block;
+  position: absolute;
+  top: 70px;
+  right: 30px;
+}
+
+
+
